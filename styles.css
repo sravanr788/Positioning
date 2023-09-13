@@ -1,0 +1,51 @@
+body {
+    background-color: #4A154B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 200vh;
+}
+img{
+    width: 190px;
+}
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    position: relative;
+  }
+.logo {
+    position: fixed;
+}
+ svg {
+    padding-left: 180px;
+    position: absolute;
+ } 
+
+nav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a + button {
+    /* Styling for the "Talk to Sales" button */
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px #fff;
+    padding: 15px;
+    border-radius: 5px;
+    position: static;
+}
+    
+nav a + button + button {
+    /* Styling for the "TRY FOR FREE" button */
+    background-color: white;
+    color: #4A154B;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+    
